@@ -1,11 +1,9 @@
-"use client";
-
-console.log("ChatPage caricato con successo!");
-
+import ChatComponent from "@/components/chat";
+console.log("ChatPage loaded");
 export default function ChatPage() {
   return (
     <div>
-      <h1>Chat</h1>
+      <ChatComponent />
     </div>
   );
 }
